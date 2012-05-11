@@ -1,0 +1,48 @@
+Dieses Dokument beschreibt die technischen Vorgaben, die für das Projekt gelten.
+Dazu wird ebenfalls beschrieben, welcher Collaborator für welche Bereiche
+zuständig ist.
+Des Weiteren ist das Dokument Versioniert, um die Entwicklungshistorie
+nachzuvollziehen.
+
+Änderungshistorie
+┌───────┬──────────┬────────────────────────────────────────────────┬──────────┐
+│Version│Author    │Änderung                                        │Datum     │
+┝━━━━━━━┿━━━━━━━━━━┿━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┿━━━━━━━━━━┥
+│  1.0  │nemoinho  │Erstellung des Dokuments                        │11.05.2012│
+└───────┴──────────┴────────────────────────────────────────────────┴──────────┘
+
+Einteilung der Collaborators
+┌────────────┬─────────────────────────────────────────────────────────────────┐
+│Teammitglied│Aufgabe                                                          │
+┝━━━━━━━━━━━━┿━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┥
+│nemoinho    │Speichern von angelegten Daten, technische Organisation          │
+│bytehawks   │Pluginfähigkeit für die Parser, fachliche Organisation           │
+│wrydzewski  │Parser, GUI                                                      │
+│Reduxx      │GUI                                                              │
+└────────────┴─────────────────────────────────────────────────────────────────┘
+
+Coding conventions
+- Methoden und Bezeichner sind stets auf Englisch
+- Öffnende Blockklammern stehen immer in der selbel Zeile wie der
+  Blockbezeichner
+- Schließende Blockklammern stehen in einer eigenen Zeile und in der selben
+  Einrückungsebene wie der Blockbezeichner
+- Der Inhalt eines Blocks ist um einen Tabstop eingerückt
+- Umbrüche in Parameterlisten werden um zwei Tabstop eingerückt
+- Jede Methode verfügt über einen englischsprachigen JavaDoc-Kommentar, außer es
+  besteht bereits ein Kommentar aus einem Interface oder einer Elternklasse,
+sofern sich die beschriebene Funktionalität nicht geändert hat.
+- nach dem package-Bezeichner folgt eine Leerzeile
+- Die Import-Anweisungen stehen ohne Leerzeilen in einem Block, danach folgt
+  eine Leerzeile
+- Logische Schritte in einer Methode können durch eine Leerzeile getrennt werden
+- Methoden sollten kurz und eindeutig gestaltet werden, ggf. werden
+  Funktionalitäten in weitere Methoden ausgelagert.
+  + Zum Beispiel, werden bei der Datenbankinitialiserung die Verbindungsdaten
+    mittels einer zusätzlichen Methode aus einer Parameterdatei geladen
+- keine Hardcodierten Werte verwenden!
+- Konfigurationsangaben werden in eine properties-Datei ausgelagert
+
+Zeitplan
+15.05.2012 - Zusammenfassung der Ergebnisse und Beratung zu etwailigen Fehlern
+             und Verbesserungen.
