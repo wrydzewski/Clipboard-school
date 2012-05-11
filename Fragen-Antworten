@@ -1,0 +1,18 @@
+Dieses Dokument dient dem Einheitlichen Austausch, dazu kann jeder eine
+fachliche oder technische Frage stellen. Diese sollte nach Möglichkeit
+kurzfristig von dem jeweiligen Verantwortlichen beantwortet werden.
+
+Fragen und Antworten nicht löschen.
+
+
+1.) bytehawks und nemoinho haben die Idee entwickelt, das Projekt rein komplett
+in Plugins zu organisieren, sprich das Kernprojekt kann nur eine Sache, das
+Clipboard auslesen und ins Clipboard schreiben, allerdings kann man an den
+Manager binden. So würden idealerweise die GUI, sowie alle Parser, als auch die
+Möglichkeit die Historie zu speichern als Plugin umgesetzt werden.  Da das
+Programm bereits über eine Pluginfähigkeit verfügen soll würde sich dieser
+Schriit anbieten. Dazu ist es jedoch notwendig die Schnittstelle klar zu
+definieren. Wenn die Schittstelle definiert ist, wäre der Entwicklungsaufwand
+der selbe.
+Die Frage zu dieser Thematik ist nun ob in der kurzen Entwicklungszeit diese
+Architektur umgesetzt werden soll?
